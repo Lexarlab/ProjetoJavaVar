@@ -21,27 +21,27 @@ public class Exercicio5 {
 		switch (item) {
 			case 1:
 				totalPrice = quant * 10;
-				System.out.println("Produto: Cachorro quente \nValor total: " + totalPrice);
+				System.out.println("Produto: Cachorro quente \nValor total: R$" + totalPrice);
 				break;
 			case 2:
 				totalPrice = quant * 15;
-				System.out.println("Produto: X-Salada \nValor total: " + totalPrice);
+				System.out.println("Produto: X-Salada \nValor total: R$" + totalPrice);
 				break;
 			case 3:
 				totalPrice = quant * 18;
-				System.out.println("Produto: X-Bacon \nValor total: " + totalPrice);
+				System.out.println("Produto: X-Bacon \nValor total: R$" + totalPrice);
 				break;
 			case 4:
 				totalPrice = quant * 12;
-				System.out.println("Produto: Bauru \nValor total: " + totalPrice);
+				System.out.println("Produto: Bauru \nValor total: R$" + totalPrice);
 				break;
 			case 5:
 				totalPrice = quant * 8;
-				System.out.println("Produto: Refrigerante \nValor total: " + totalPrice);
+				System.out.println("Produto: Refrigerante \nValor total: R$" + totalPrice);
 				break;
 			case 6:
 				totalPrice = quant * 13;
-				System.out.println("Produto: Suco de Laranja \nValor total: " + totalPrice);
+				System.out.println("Produto: Suco de Laranja \nValor total: R$" + totalPrice);
 				break;
 	
 			}
