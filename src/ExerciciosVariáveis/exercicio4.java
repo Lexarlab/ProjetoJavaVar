@@ -6,7 +6,7 @@ public class exercicio4 {
 
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
+		Scanner read = new Scanner(System.in);
 		
 		float n1;
 		float n2;
@@ -14,17 +14,18 @@ public class exercicio4 {
 		float n4;
 		
 		System.out.println("Dê o valor de um número: ");
-		n1 = leia.nextFloat();
+		n1 = read.nextFloat();
 		System.out.println("Dê o valor de um número: ");
-		n2 = leia.nextFloat();
+		n2 = read.nextFloat();
 		System.out.println("Dê o valor de um número: ");
-		n3 = leia.nextFloat();
+		n3 = read.nextFloat();
 		System.out.println("Dê o valor de um número: ");
-		n4 = leia.nextFloat();
+		n4 = read.nextFloat();
 		
 		float calculo = (n1*n2) - (n3*n4);
 		System.out.println("O valor é: " + calculo);
-
+		
+		read.close();
 	}
 
 }

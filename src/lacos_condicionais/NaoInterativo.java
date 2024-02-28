@@ -1,7 +1,5 @@
 package lacos_condicionais;
 
-import java.util.Scanner;
-
 public class NaoInterativo {
 
 	public static void main(String[] args) {

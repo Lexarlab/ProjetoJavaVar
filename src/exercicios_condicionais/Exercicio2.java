@@ -19,7 +19,7 @@ public class Exercicio2 {
 		else {
 			System.out.print("O número " + n1 + " é negativo!");
 		}
-
+		read.close();
 	}
 
 }

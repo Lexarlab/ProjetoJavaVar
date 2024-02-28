@@ -26,7 +26,7 @@ public class Exercicio1 {
 		else {
 			System.out.print("A soma de " + n1 + " + " + n2 + " é igual que " + n3);
 		}
-		
+		read.close();
 	}
 
 }

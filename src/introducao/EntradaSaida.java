@@ -21,6 +21,7 @@ public class EntradaSaida {
 		System.out.println("Olá, " + name + "! Seja bem-vinda ao bootcamp de Full Stack JAVA");
 		System.out.println("Sua idade é " + age + " anos.");
 		
+		leia.close();
 	}
-
+	
 }
