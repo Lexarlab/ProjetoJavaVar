@@ -46,6 +46,7 @@ public class Exercicio5 {
 	
 			}
 		
+		read.close();
 		
 	}
 
