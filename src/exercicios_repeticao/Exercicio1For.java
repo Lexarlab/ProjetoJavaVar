@@ -27,6 +27,7 @@ public class Exercicio1For {
                   
 		}
 		System.out.print("Pares são: " + even + "\nÍmpares são: " + odd);
+		read.close();
 	}
 	
 }
