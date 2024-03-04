@@ -44,7 +44,7 @@ public class ExercicioFila {
 					} else {
 						System.out.println("\nRetirar cliente da fila: ");
 						name = read.nextLine();
-						line.remove(name);
+						line.remove();
 						System.out.println("\nCliente foi Chamado: " + line);
 					}
 					break;
